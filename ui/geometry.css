@@ -1,0 +1,25 @@
+:root{--corner-g2:superellipse(2);--radius-circle:50%;--radius-pill:999px;
+ --radius-square:0px;
+ --radius-checkbox:3px;
+ --radius-5:5px;
+ --radius-7:7px;
+ --radius-control:8px;
+ --radius-9:9px;
+ --radius-button:10px;
+ --radius-11:11px;
+ --radius-12:12px;
+ --radius-13:13px;
+ --radius-14:14px;
+ --radius-15:15px;
+ --radius-16:16px;
+ --radius-22:22px;
+ --radius-notification:23px;
+ --radius-picker:24px;
+ --radius-dialog:28px;
+ --radius-icon:32px;
+ --radius-preview:48px;
+ --icon-edge-light:#00000018;--icon-edge-dark:transparent;
+}
+@media(prefers-color-scheme:dark){:root{--icon-edge-light:transparent;--icon-edge-dark:#ffffff26}}
+html[data-theme=light]{--icon-edge-light:#00000018;--icon-edge-dark:transparent}
+html[data-theme=dark]{--icon-edge-light:transparent;--icon-edge-dark:#ffffff26}

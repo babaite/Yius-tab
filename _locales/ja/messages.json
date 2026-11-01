@@ -1,0 +1,452 @@
+{
+  "extensionName": {
+    "message": "Yiu‘s tab"
+  },
+  "extensionDescription": {
+    "message": "自動調整のブックマークグリッド、高画質アイコン、ドラッグ並べ替え、ライト・ダーク表示に対応したシンプルな新しいタブ。"
+  },
+  "syncActivity": {
+    "message": "同期と復元"
+  },
+  "diagnosticsTitle": {
+    "message": "同期の診断"
+  },
+  "syncRecover": {
+    "message": "クラウドからサイトとアイコンを復元"
+  },
+  "syncEmptyGuard": {
+    "message": "空の設定による上書きを停止しました。クラウドから復元してください。"
+  },
+  "syncNoRecovery": {
+    "message": "現在と直前のクラウド版にサイトがありません。クラウドのファイル履歴を確認してください。"
+  },
+  "appStore": {
+    "message": "Apple App Store"
+  },
+  "appStoreMatch": {
+    "message": "一致するアプリ"
+  },
+  "openExtensionOptions": {
+    "message": "拡張機能の設定を開く（新しいタブ）"
+  },
+  "chinaStore": {
+    "message": "中国"
+  },
+  "usStore": {
+    "message": "米国"
+  },
+  "noWebsiteIcon": {
+    "message": "サイトアイコンが見つかりません。"
+  },
+  "noAppStoreIcon": {
+    "message": "一致する App Store アプリがありません。"
+  },
+  "iconSettings": {
+    "message": "アイコン設定"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "appearance": {
+    "message": "表示"
+  },
+  "websiteImage": {
+    "message": "サイトの画像"
+  },
+  "initialLetter": {
+    "message": "頭文字"
+  },
+  "background": {
+    "message": "背景色"
+  },
+  "chooseColor": {
+    "message": "背景色を選択"
+  },
+  "scale": {
+    "message": "サイズ"
+  },
+  "iconSource": {
+    "message": "画像の取得元"
+  },
+  "bestQuality": {
+    "message": "最高画質"
+  },
+  "localUpload": {
+    "message": "画像をアップロード"
+  },
+  "chooseFile": {
+    "message": "ファイルを選択"
+  },
+  "reset": {
+    "message": "リセット"
+  },
+  "resetButton": {
+    "message": "初期状態に戻す"
+  },
+  "resetting": {
+    "message": "リセット中…"
+  },
+  "resetDone": {
+    "message": "✓ リセット済み"
+  },
+  "privacyNotice": {
+    "message": "外部取得元を選ぶ場合のみ API に接続します。拡張機能の設定で変更できます。"
+  },
+  "gridLabel": {
+    "message": "New tab のブックマーク"
+  },
+  "iconActionHint": {
+    "message": "：Option / Alt クリックでアイコンを設定"
+  },
+  "openFailed": {
+    "message": "このアドレスを開けません。ブックマークの URL を確認してください。"
+  },
+  "orderFailed": {
+    "message": "並び順を保存できませんでした。もう一度お試しください。"
+  },
+  "missingFolder": {
+    "message": "Chrome のブックマークに「New tab」フォルダを作成し、サイトを追加してください。"
+  },
+  "emptyFolder": {
+    "message": "ブックマーク マネージャーの「その他のブックマーク → Yiu’s tab」にサイトを追加してください。フォルダの移動・名前の変更は可能です。ID ブックマークは残してください。"
+  },
+  "bookmarksFailed": {
+    "message": "ブックマークを読み込めません。新しいタブを開き直してください。"
+  },
+  "candidateIcon": {
+    "message": "サイトアイコン"
+  },
+  "localImage": {
+    "message": "ローカル画像"
+  },
+  "thirdParty": {
+    "message": "外部サービス"
+  },
+  "loadingIcon": {
+    "message": "アイコンを取得中"
+  },
+  "fetchFailed": {
+    "message": "アイコンを取得できません。しばらくしてからお試しください。"
+  },
+  "noThirdPartyIcon": {
+    "message": "外部サービスに高解像度のアイコンがありません。"
+  },
+  "imageLoaded": {
+    "message": "画像を読み込みました。保存すると適用されます。"
+  },
+  "saveFailed": {
+    "message": "保存できませんでした。もう一度お試しください。"
+  },
+  "extensionOnly": {
+    "message": "このフォルダを Chrome 拡張機能として読み込み、新しいタブを開いてください。"
+  },
+  "fileTooLarge": {
+    "message": "ファイルが大きすぎます。"
+  },
+  "emptyResponse": {
+    "message": "サーバーの応答が空です。"
+  },
+  "imageTooLarge": {
+    "message": "画像は {max} MB 以下にしてください。"
+  },
+  "imageTimeout": {
+    "message": "画像の読み込みがタイムアウトしました。"
+  },
+  "imageUnreadable": {
+    "message": "画像を読み込めません。"
+  },
+  "httpError": {
+    "message": "サーバーが HTTP {code} を返しました。"
+  },
+  "svLabel": {
+    "message": "彩度と明るさ"
+  },
+  "eyedropper": {
+    "message": "画面から色を取得"
+  },
+  "hue": {
+    "message": "色相"
+  },
+  "opacity": {
+    "message": "不透明度"
+  },
+  "colorFormat": {
+    "message": "カラー形式"
+  },
+  "hexColor": {
+    "message": "16進数カラー"
+  },
+  "hslHue": {
+    "message": "HSL 色相"
+  },
+  "hslSaturation": {
+    "message": "HSL 彩度"
+  },
+  "hslLightness": {
+    "message": "HSL 輝度"
+  },
+  "colorOpacity": {
+    "message": "色の不透明度"
+  },
+  "red": {
+    "message": "赤"
+  },
+  "green": {
+    "message": "緑"
+  },
+  "blue": {
+    "message": "青"
+  },
+  "svValue": {
+    "message": "彩度 {s}%、明るさ {v}%"
+  },
+  "currentColor": {
+    "message": "背景色を選択、現在 {color}"
+  },
+  "extensionSettings": {
+    "message": "拡張機能の設定"
+  },
+  "configuration": {
+    "message": "設定ファイル"
+  },
+  "backupHint": {
+    "message": "ブックマーク、順序、アイコンの表示、色・透明度、サイズ、画像位置、取得元、ローカル画像を復元可能な JSON に保存します。"
+  },
+  "exportConfig": {
+    "message": "設定をダウンロード"
+  },
+  "importConfig": {
+    "message": "設定をインポート"
+  },
+  "backupPrivacy": {
+    "message": "URL と画像が含まれます。安全に保管してください。クラウドのパスワードは含まれません。上限 64 MB。"
+  },
+  "importHint": {
+    "message": "New tab 内の URL を照合し、不足サイトを追加してアイコン設定と順序を適用します。他のブックマークは保持します。"
+  },
+  "applyImport": {
+    "message": "この設定を適用"
+  },
+  "cancelImport": {
+    "message": "キャンセル"
+  },
+  "importSummary": {
+    "message": "{count} 件のサイトと {images} 件のアイコンデータを読み込みました。"
+  },
+  "readyToImport": {
+    "message": "内容を確認して適用してください。"
+  },
+  "importCancelled": {
+    "message": "インポートをキャンセルしました。"
+  },
+  "imported": {
+    "message": "設定を適用しました。開いている新しいタブは更新されます。"
+  },
+  "exported": {
+    "message": "設定ファイルを生成しました。"
+  },
+  "working": {
+    "message": "処理中…"
+  },
+  "operationFailed": {
+    "message": "操作に失敗しました：{detail}"
+  },
+  "invalidBackup": {
+    "message": "設定形式が無効か、画像データが不完全です。"
+  },
+  "backupTooLarge": {
+    "message": "設定ファイルの上限は 64 MB です。"
+  },
+  "invalidTemplate": {
+    "message": "HTTP(S) の取得先とドメインまたは URL のプレースホルダーを指定してください。"
+  },
+  "invalidCloudURL": {
+    "message": "認証情報を含めずに HTTPS ファイルの完全な URL を入力してください。"
+  },
+  "cloudSettings": {
+    "message": "クラウド同期"
+  },
+  "cloudHint": {
+    "message": "提供元のサーバー URL、アカウント、アプリパスワードを入力してください。有効にすると設定とアイコンを自動同期します。"
+  },
+  "cloudURL": {
+    "message": "WebDAV サーバー URL"
+  },
+  "cloudUser": {
+    "message": "ユーザー名（任意）"
+  },
+  "cloudPassword": {
+    "message": "アプリパスワード（任意）"
+  },
+  "rememberSecret": {
+    "message": "ユーザー名とアプリパスワードをこの端末に保存"
+  },
+  "cloudPrivacy": {
+    "message": "有効にすると URL・設定・アイコンを上記の接続先へ送信します。認証情報は端末内にのみ保存し、同期しません。"
+  },
+  "allowOverwrite": {
+    "message": "今回のアップロードでクラウド上の設定を上書きする"
+  },
+  "cloudPush": {
+    "message": "設定をアップロード"
+  },
+  "cloudPull": {
+    "message": "ダウンロードして確認"
+  },
+  "overwriteRequired": {
+    "message": "上書きを許可してからアップロードしてください。"
+  },
+  "cloudUploaded": {
+    "message": "設定をアップロードしました。"
+  },
+  "edgeHint": {
+    "message": "Chrome の拡張機能から Edge アカウントの同期は利用できません。このインターフェイスはブラウザーの同期から独立しています。"
+  },
+  "webdavHelp": {
+    "message": "Jianguoyun WebDAV の設定 ↗"
+  },
+  "saveSettings": {
+    "message": "設定を保存"
+  },
+  "settingsSaved": {
+    "message": "設定を保存しました。"
+  },
+  "presetSelected": {
+    "message": "取得先を入力しました。保存すると反映されます。"
+  },
+  "interfaceURL": {
+    "message": "外部アイコン取得先 URL"
+  },
+  "thirdPartySettings": {
+    "message": "外部アイコン取得元"
+  },
+  "thirdPartyHint": {
+    "message": "通常はサイトの画像を直接取得します。個別設定で外部取得元を選んだ場合のみ、この API を利用します。"
+  },
+  "templateHint": {
+    "message": "変数：{domain}（ドメイン）、{url}（完全 URL）、{size}（256）。値は URL エンコードされます。画像を返す API を指定してください。"
+  },
+  "providerHint": {
+    "message": "中国本土では Favicon.org.cn（公式サイトで無料キーを申請）を候補にできます。Favicon.im はキー不要です。接続性と無料枠は提供元に依存します。"
+  },
+  "chinaProvider": {
+    "message": "Favicon.org.cn 無料キーと仕様 ↗"
+  },
+  "fixFields": {
+    "message": "表示された入力内容を確認してください。変更は自動保存されます。"
+  },
+  "syncEnable": {
+    "message": "自動同期を有効にする（アプリ認証情報を端末に保存）"
+  },
+  "syncNow": {
+    "message": "今すぐ確認"
+  },
+  "syncKeepLocal": {
+    "message": "ローカルを保持"
+  },
+  "syncKeepRemote": {
+    "message": "クラウドを保持"
+  },
+  "syncConflictHint": {
+    "message": "同じ項目が複数端末で変更されました。他の変更は保持しています。競合項目に使う値を選んでください。"
+  },
+  "syncDisabled": {
+    "message": "自動同期はオフです"
+  },
+  "syncChecking": {
+    "message": "クラウドの変更を確認中…"
+  },
+  "syncWorking": {
+    "message": "設定とアイコンを同期中…"
+  },
+  "syncComplete": {
+    "message": "設定とアイコンは同期済みです"
+  },
+  "syncPending": {
+    "message": "変更を端末に保存しました。同期待ちです"
+  },
+  "syncConflict": {
+    "message": "競合があります。使用する値を選んでください"
+  },
+  "syncOffline": {
+    "message": "ネットワークに接続できません。変更を保持し、自動的に再試行します。"
+  },
+  "syncAuth": {
+    "message": "認証またはアクセスに失敗しました。アカウントとアプリパスワードを確認してください。"
+  },
+  "syncUnsupported": {
+    "message": "クラウドのバージョン検証に失敗しました（ETag・条件付き書き込み）。ローカル設定を保持します。"
+  },
+  "syncFolder": {
+    "message": "アイコンの保存先を作成できません。親フォルダーと書き込み権限を確認してください。"
+  },
+  "syncInvalidData": {
+    "message": "クラウドの形式が非対応か画像検証に失敗しました。元のファイルは上書きしません。"
+  },
+  "syncTooLarge": {
+    "message": "設定または画像が同期サイズの上限を超えています。"
+  },
+  "syncRemember": {
+    "message": "バックグラウンド同期には端末への認証情報の保存が必要です。"
+  },
+  "syncHTTP": {
+    "message": "クラウドの処理に失敗しました。自動的に再試行します。"
+  },
+  "syncAsset": {
+    "message": "一部の画像を取得できません。端末の設定を保持し、自動的に再試行します。"
+  },
+  "syncBusy": {
+    "message": "クラウドの整理中です。まもなく自動で再試行します。"
+  },
+  "syncRace": {
+    "message": "他の端末が更新しました。再確認して統合します。"
+  },
+  "syncLocalChanged": {
+    "message": "新しい変更を保存中です。まもなく同期します。"
+  },
+  "syncFailed": {
+    "message": "同期は未完了です。端末の変更は保持されています。"
+  },
+  "syncLastTime": {
+    "message": "最終同期：{time}"
+  },
+  "syncPreview": {
+    "message": "プレビューはクラウドに接続しません。拡張機能で同期を設定してください。"
+  },
+  "syncFormat": {
+    "message": "クラウドの形式が非対応です。新しい空の設定ファイル URL を指定してください。元のファイルは保持します。"
+  },
+  "noticeSyncing": {
+    "message": "クラウド同期中"
+  },
+  "noticeOffline": {
+    "message": "ネットワーク未接続"
+  },
+  "noticeFailed": {
+    "message": "クラウド同期に失敗"
+  },
+  "noticeError": {
+    "message": "クラウド同期エラー"
+  },
+  "noticeLocalRetry": {
+    "message": "端末の設定を保持し、自動で再試行します。"
+  },
+  "noticeUsingLocal": {
+    "message": "端末の設定を使用しています。設定で同期を確認してください。"
+  },
+  "syncNetworkFailure": {
+    "message": "クラウドに接続できません。端末の変更を保持し、自動で再試行します。"
+  },
+  "shortcutCanvas": {
+    "message": "空白部分をクリックして設定を開く"
+  },
+  "shortcutIcon": {
+    "message": "サイトのアイコンをクリックして外観を編集"
+  },
+  "syncDiagnostics": {
+    "message": "同期診断をダウンロード"
+  }
+}

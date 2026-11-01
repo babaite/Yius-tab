@@ -1,0 +1,12 @@
+button[data-action]{position:relative;padding-inline:39px;text-align:center;min-width:0;overflow-wrap:anywhere}
+button[data-action]::before,button[data-action]::after{content:"";position:absolute;right:13px;top:calc(50% - 7px);width:14px;height:14px;box-sizing:border-box;pointer-events:none;opacity:0;transition:opacity var(--time-140) ease,transform var(--time-140) ease}
+button[data-action]::before{border:1.6px solid currentColor;border-right-color:transparent;border-radius:var(--radius-circle);corner-shape:round;animation:action-spin 850ms linear infinite;animation-play-state:paused}
+button[data-action]::after{background:var(--status-success);mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m5 12 4 4L19 6' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;transform:scale(.75)}
+button[data-action-state=working]::before{opacity:1;animation-play-state:running}
+button[data-action-state=done]::after{opacity:1;transform:scale(1)}
+button[data-action-state=error]::after{background:var(--status-error);mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 5v9m0 5h.01' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E");opacity:1;transform:scale(1)}
+button[data-action-state=working]:disabled{opacity:.78;cursor:progress}
+@keyframes action-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){button[data-action]::before,button[data-action]::after{transition:none}button[data-action]::before{animation:none}}
+
+button.primary[data-action]::after{background:var(--on-accent)}

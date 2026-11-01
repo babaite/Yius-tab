@@ -1,0 +1,8 @@
+input[aria-invalid=true]{border-color:#d65a64}
+.field-error{font-size:13px;color:var(--status-error);margin:7px 0 0;line-height:1.5}
+.field-error:empty{display:none}
+@media(prefers-color-scheme:dark){.field-error{color:var(--status-error)}}
+.field-error,.field-error:empty{display:block;height:3em;min-height:3em;margin:7px 0 0;opacity:0;transition:opacity var(--time-130) ease;overflow-wrap:anywhere}
+.field-error.is-visible{opacity:1}
+@media(max-width:500px){.field-error,.field-error:empty{height:4.5em;min-height:4.5em}}
+@media(prefers-reduced-motion:reduce){.field-error{transition:none}}

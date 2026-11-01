@@ -1,0 +1,3 @@
+let cacheDB;
+async function assetDB(){if(!cacheDB)cacheDB=new Promise((resolve,reject)=>{const r=indexedDB.open('yius-tab-sync',1);r.onupgradeneeded=()=>r.result.createObjectStore('assets');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});return cacheDB;}
+export const diskCache={async get(key){const db=await assetDB();return new Promise((resolve,reject)=>{const r=db.transaction('assets').objectStore('assets').get(key);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});},async put(key,blob){const db=await assetDB();return new Promise((resolve,reject)=>{const tx=db.transaction('assets','readwrite');tx.objectStore('assets').put(blob,key);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);});}};
