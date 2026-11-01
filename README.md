@@ -6,8 +6,6 @@
 
 ![Yiu’s tab 新标签页：真实图标、向下滚动时的顶部渐变模糊](docs/screenshots/newtab-light.png)
 
-实际扩展界面截图，尺寸为 2880×1536。截图使用隔离的公开网站测试数据，不包含用户书签或个人主页内容。网站图标来自各站点真实 favicon；有对应官方 App 的网站使用名称、开发者逐项匹配的 App Store 高清图标，详见[图标匹配记录](docs/screenshots/README.md)。截图拍摄于向下滚动状态，顶部可见多层渐变模糊与渐变压暗效果。
-
 ## 功能
 
 - 自适应书签网格、自动深浅主题、共享 UI 组件与动效。
@@ -16,12 +14,7 @@
 - 完整配置导入、导出与可选 WebDAV 自动同步，包含书签、图标与外观设置。
 - 中文、英语、日语、韩语界面，扩展元数据另含繁体中文。
 
-<details>
-<summary>查看深色模式截图</summary>
-
 ![Yiu’s tab 深色模式：向下滚动时的顶部渐变模糊](docs/screenshots/newtab-dark.png)
-
-</details>
 
 ## 安装
 
