@@ -1,0 +1,2 @@
+export function motionMs(name,fallback){const value=getComputedStyle(document.documentElement).getPropertyValue('--'+name).trim();return value.endsWith('ms')?parseFloat(value):value.endsWith('s')?parseFloat(value)*1000:fallback;}
+export const TOP_BLUR=Object.freeze({radii:[1,2,4,8,16,24],heights:[144,124,104,80,56,32],mask:'linear-gradient(to bottom,black 0%,black 12%,transparent 100%)',blurDamping:110,shadeDamping:380,blurRange:90,shadeRange:280});

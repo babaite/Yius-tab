@@ -1,0 +1,452 @@
+{
+  "extensionName": {
+    "message": "Yiu‘s tab"
+  },
+  "extensionDescription": {
+    "message": "반응형 북마크 그리드, 선명한 아이콘, 드래그 정렬, 자동 라이트·다크 테마를 제공하는 깔끔한 새 탭입니다."
+  },
+  "syncActivity": {
+    "message": "동기화 및 복원"
+  },
+  "diagnosticsTitle": {
+    "message": "동기화 진단"
+  },
+  "syncRecover": {
+    "message": "클라우드에서 사이트와 아이콘 복원"
+  },
+  "syncEmptyGuard": {
+    "message": "빈 설정 덮어쓰기를 차단했습니다. 클라우드에서 복원하세요."
+  },
+  "syncNoRecovery": {
+    "message": "현재 및 이전 클라우드 버전에 사이트가 없습니다. 클라우드 파일 기록에서 복원하세요."
+  },
+  "appStore": {
+    "message": "Apple App Store"
+  },
+  "appStoreMatch": {
+    "message": "일치하는 앱"
+  },
+  "openExtensionOptions": {
+    "message": "확장 프로그램 옵션 열기 (새 탭)"
+  },
+  "chinaStore": {
+    "message": "중국"
+  },
+  "usStore": {
+    "message": "미국"
+  },
+  "noWebsiteIcon": {
+    "message": "사이트 아이콘을 찾을 수 없습니다."
+  },
+  "noAppStoreIcon": {
+    "message": "일치하는 App Store 앱을 찾을 수 없습니다."
+  },
+  "iconSettings": {
+    "message": "아이콘 설정"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "save": {
+    "message": "저장"
+  },
+  "appearance": {
+    "message": "모양"
+  },
+  "websiteImage": {
+    "message": "사이트 이미지"
+  },
+  "initialLetter": {
+    "message": "컬러 이니셜"
+  },
+  "background": {
+    "message": "배경색"
+  },
+  "chooseColor": {
+    "message": "배경색 선택"
+  },
+  "scale": {
+    "message": "크기"
+  },
+  "iconSource": {
+    "message": "아이콘 소스"
+  },
+  "bestQuality": {
+    "message": "최고 화질"
+  },
+  "localUpload": {
+    "message": "이미지 업로드"
+  },
+  "chooseFile": {
+    "message": "파일 선택"
+  },
+  "reset": {
+    "message": "초기화"
+  },
+  "resetButton": {
+    "message": "기본값으로 복원"
+  },
+  "resetting": {
+    "message": "복원 중…"
+  },
+  "resetDone": {
+    "message": "✓ 복원 완료"
+  },
+  "privacyNotice": {
+    "message": "외부 소스를 선택할 때만 설정한 API를 호출합니다. 확장 설정에서 변경할 수 있습니다."
+  },
+  "gridLabel": {
+    "message": "New tab 북마크"
+  },
+  "iconActionHint": {
+    "message": "; Option/Alt 키를 누르고 클릭하여 아이콘 설정"
+  },
+  "openFailed": {
+    "message": "주소를 열 수 없습니다. 북마크의 URL을 확인하세요."
+  },
+  "orderFailed": {
+    "message": "순서를 저장하지 못했습니다. 다시 시도하세요."
+  },
+  "missingFolder": {
+    "message": "Chrome 북마크에 “New tab” 폴더를 만들고 사이트를 추가하세요."
+  },
+  "emptyFolder": {
+    "message": "북마크 관리자에서 기타 북마크 → Yiu’s tab에 사이트를 추가하세요. 폴더를 이동하거나 이름을 바꿔도 됩니다. ID 북마크는 유지하세요."
+  },
+  "bookmarksFailed": {
+    "message": "북마크를 읽지 못했습니다. 새 탭을 다시 여세요."
+  },
+  "candidateIcon": {
+    "message": "사이트 아이콘"
+  },
+  "localImage": {
+    "message": "로컬 이미지"
+  },
+  "thirdParty": {
+    "message": "외부 소스"
+  },
+  "loadingIcon": {
+    "message": "아이콘 불러오는 중"
+  },
+  "fetchFailed": {
+    "message": "아이콘을 불러오지 못했습니다. 나중에 다시 시도하세요."
+  },
+  "noThirdPartyIcon": {
+    "message": "외부 소스에서 고해상도 아이콘을 찾지 못했습니다."
+  },
+  "imageLoaded": {
+    "message": "이미지를 불러왔습니다. 저장하면 적용됩니다."
+  },
+  "saveFailed": {
+    "message": "저장하지 못했습니다. 다시 시도하세요."
+  },
+  "extensionOnly": {
+    "message": "이 폴더를 Chrome 확장 프로그램으로 로드한 다음 새 탭을 여세요."
+  },
+  "fileTooLarge": {
+    "message": "파일이 너무 큽니다."
+  },
+  "emptyResponse": {
+    "message": "서버 응답이 비어 있습니다."
+  },
+  "imageTooLarge": {
+    "message": "이미지는 {max} MB 이하여야 합니다."
+  },
+  "imageTimeout": {
+    "message": "이미지 로딩 시간이 초과되었습니다."
+  },
+  "imageUnreadable": {
+    "message": "이미지를 읽을 수 없습니다."
+  },
+  "httpError": {
+    "message": "서버에서 HTTP {code}을 반환했습니다."
+  },
+  "svLabel": {
+    "message": "채도와 밝기"
+  },
+  "eyedropper": {
+    "message": "화면에서 색상 추출"
+  },
+  "hue": {
+    "message": "색조"
+  },
+  "opacity": {
+    "message": "불투명도"
+  },
+  "colorFormat": {
+    "message": "색상 형식"
+  },
+  "hexColor": {
+    "message": "16진수 색상"
+  },
+  "hslHue": {
+    "message": "HSL 색조"
+  },
+  "hslSaturation": {
+    "message": "HSL 채도"
+  },
+  "hslLightness": {
+    "message": "HSL 명도"
+  },
+  "colorOpacity": {
+    "message": "색상 불투명도"
+  },
+  "red": {
+    "message": "빨강"
+  },
+  "green": {
+    "message": "초록"
+  },
+  "blue": {
+    "message": "파랑"
+  },
+  "svValue": {
+    "message": "채도 {s}%, 밝기 {v}%"
+  },
+  "currentColor": {
+    "message": "배경색 선택, 현재 {color}"
+  },
+  "extensionSettings": {
+    "message": "확장 프로그램 설정"
+  },
+  "configuration": {
+    "message": "설정 파일"
+  },
+  "backupHint": {
+    "message": "북마크, 순서, 아이콘 모양, 색상과 투명도, 크기, 이미지 위치, 소스 및 로컬 이미지를 복원 가능한 JSON으로 저장합니다."
+  },
+  "exportConfig": {
+    "message": "설정 다운로드"
+  },
+  "importConfig": {
+    "message": "설정 가져오기"
+  },
+  "backupPrivacy": {
+    "message": "백업에는 URL과 이미지가 포함됩니다. 안전하게 보관하세요. 클라우드 비밀번호는 제외됩니다. 최대 64 MB."
+  },
+  "importHint": {
+    "message": "New tab 북마크를 URL로 연결하고 누락된 사이트를 추가한 뒤 아이콘 설정과 순서를 적용합니다. 다른 북마크는 유지됩니다."
+  },
+  "applyImport": {
+    "message": "설정 적용"
+  },
+  "cancelImport": {
+    "message": "취소"
+  },
+  "importSummary": {
+    "message": "사이트 {count}개와 아이콘 데이터 {images}개를 읽었습니다."
+  },
+  "readyToImport": {
+    "message": "가져올 내용을 확인한 후 적용하세요."
+  },
+  "importCancelled": {
+    "message": "가져오기가 취소되었습니다."
+  },
+  "imported": {
+    "message": "설정이 적용되었습니다. 열려 있는 새 탭 페이지가 새로고침됩니다."
+  },
+  "exported": {
+    "message": "설정 파일이 생성되었습니다."
+  },
+  "working": {
+    "message": "처리 중…"
+  },
+  "operationFailed": {
+    "message": "작업 실패: {detail}"
+  },
+  "invalidBackup": {
+    "message": "설정 파일이 잘못되었거나 이미지 데이터가 불완전합니다."
+  },
+  "backupTooLarge": {
+    "message": "설정 파일은 64 MB를 초과할 수 없습니다."
+  },
+  "invalidTemplate": {
+    "message": "HTTP(S) 주소와 도메인 또는 URL 자리표시자를 사용하세요."
+  },
+  "invalidCloudURL": {
+    "message": "인증 정보 없이 전체 HTTPS 클라우드 파일 URL을 입력하세요."
+  },
+  "cloudSettings": {
+    "message": "클라우드 동기화"
+  },
+  "cloudHint": {
+    "message": "서비스 제공자의 서버 주소, 계정 및 앱 비밀번호를 입력하세요. 활성화하면 설정과 아이콘을 자동 동기화합니다."
+  },
+  "cloudURL": {
+    "message": "WebDAV 서버 주소"
+  },
+  "cloudUser": {
+    "message": "사용자 이름 (선택)"
+  },
+  "cloudPassword": {
+    "message": "앱 비밀번호 (선택)"
+  },
+  "rememberSecret": {
+    "message": "이 기기에 사용자 이름과 앱 비밀번호 저장"
+  },
+  "cloudPrivacy": {
+    "message": "사용하면 URL, 설정, 아이콘을 위 주소로 전송합니다. 계정 인증 정보는 이 기기에만 저장되며 동기화하지 않습니다."
+  },
+  "allowOverwrite": {
+    "message": "이번 업로드로 클라우드 설정 파일 덮어쓰기 허용"
+  },
+  "cloudPush": {
+    "message": "설정 업로드"
+  },
+  "cloudPull": {
+    "message": "다운로드 및 검토"
+  },
+  "overwriteRequired": {
+    "message": "업로드하기 전에 클라우드 파일 덮어쓰기를 허용하세요."
+  },
+  "cloudUploaded": {
+    "message": "설정이 업로드되었습니다."
+  },
+  "edgeHint": {
+    "message": "Chrome 확장 프로그램은 Edge 계정 동기화를 사용할 수 없습니다. 이 인터페이스는 브라우저 동기화와 별도로 동작합니다."
+  },
+  "webdavHelp": {
+    "message": "Jianguoyun WebDAV 설정 ↗"
+  },
+  "saveSettings": {
+    "message": "설정 저장"
+  },
+  "settingsSaved": {
+    "message": "설정이 저장되었습니다."
+  },
+  "presetSelected": {
+    "message": "인터페이스가 입력되었습니다. 저장하면 적용됩니다."
+  },
+  "interfaceURL": {
+    "message": "외부 아이콘 URL"
+  },
+  "thirdPartySettings": {
+    "message": "외부 아이콘 소스"
+  },
+  "thirdPartyHint": {
+    "message": "사이트 아이콘을 우선 사용합니다. 개별 아이콘에서 외부 소스를 선택할 때만 이 인터페이스를 호출합니다."
+  },
+  "templateHint": {
+    "message": "자리표시자: {domain}(도메인), {url}(전체 URL), {size}(256). 값은 URL 인코딩됩니다. 이미지 응답 API를 사용하세요."
+  },
+  "providerHint": {
+    "message": "중국 본토에서는 Favicon.org.cn(공식 사이트에서 무료 키 신청)을 고려할 수 있습니다. Favicon.im은 키가 필요 없습니다. 연결성과 무료 한도는 제공업체에 따라 다릅니다."
+  },
+  "chinaProvider": {
+    "message": "Favicon.org.cn 무료 키 및 문서 ↗"
+  },
+  "fixFields": {
+    "message": "표시된 입력 항목을 확인하세요. 변경 사항은 자동 저장됩니다."
+  },
+  "syncEnable": {
+    "message": "자동 동기화 사용 (이 기기에 앱 인증 정보 저장)"
+  },
+  "syncNow": {
+    "message": "지금 확인"
+  },
+  "syncKeepLocal": {
+    "message": "로컬 유지"
+  },
+  "syncKeepRemote": {
+    "message": "클라우드 유지"
+  },
+  "syncConflictHint": {
+    "message": "두 기기에서 같은 항목이 변경되었습니다. 다른 변경 내용은 유지됩니다. 충돌 항목에 사용할 값을 선택하세요."
+  },
+  "syncDisabled": {
+    "message": "자동 동기화가 꺼져 있습니다"
+  },
+  "syncChecking": {
+    "message": "클라우드 변경 확인 중…"
+  },
+  "syncWorking": {
+    "message": "설정과 아이콘 동기화 중…"
+  },
+  "syncComplete": {
+    "message": "설정과 아이콘이 동기화되었습니다"
+  },
+  "syncPending": {
+    "message": "변경 내용이 로컬에 저장되어 동기화 대기 중입니다"
+  },
+  "syncConflict": {
+    "message": "충돌이 있습니다. 유지할 버전을 선택하세요"
+  },
+  "syncOffline": {
+    "message": "네트워크를 사용할 수 없습니다. 로컬 변경을 유지하고 자동으로 재시도합니다."
+  },
+  "syncAuth": {
+    "message": "인증 또는 접근에 실패했습니다. 계정과 앱 비밀번호를 확인하세요."
+  },
+  "syncUnsupported": {
+    "message": "클라우드 버전 검증에 실패했습니다(ETag 또는 조건부 쓰기). 로컬 설정을 유지합니다."
+  },
+  "syncFolder": {
+    "message": "아이콘 폴더를 만들 수 없습니다. 상위 폴더와 쓰기 권한을 확인하세요."
+  },
+  "syncInvalidData": {
+    "message": "클라우드 형식이 호환되지 않거나 이미지 검증에 실패했습니다. 원본을 덮어쓰지 않습니다."
+  },
+  "syncTooLarge": {
+    "message": "설정 또는 이미지가 동기화 크기 제한을 초과했습니다."
+  },
+  "syncRemember": {
+    "message": "백그라운드 동기화에는 이 기기에 인증 정보를 저장해야 합니다."
+  },
+  "syncHTTP": {
+    "message": "클라우드가 요청을 완료하지 못했습니다. 자동으로 재시도합니다."
+  },
+  "syncAsset": {
+    "message": "일부 아이콘을 다운로드할 수 없습니다. 로컬 설정을 유지하고 자동으로 재시도합니다."
+  },
+  "syncBusy": {
+    "message": "클라우드 파일 정리 중입니다. 잠시 후 자동으로 재시도합니다."
+  },
+  "syncRace": {
+    "message": "다른 기기가 방금 업데이트했습니다. 다시 확인하고 병합합니다."
+  },
+  "syncLocalChanged": {
+    "message": "새 변경 내용을 저장 중입니다. 잠시 후 동기화합니다."
+  },
+  "syncFailed": {
+    "message": "동기화가 완료되지 않았습니다. 로컬 변경 내용은 유지됩니다."
+  },
+  "syncLastTime": {
+    "message": "최근 동기화: {time}"
+  },
+  "syncPreview": {
+    "message": "미리보기는 클라우드에 연결하지 않습니다. 확장 프로그램에서 동기화를 설정하세요."
+  },
+  "syncFormat": {
+    "message": "클라우드 파일 형식이 호환되지 않습니다. 새 빈 설정 파일 URL을 사용하세요. 원본은 유지됩니다."
+  },
+  "noticeSyncing": {
+    "message": "클라우드 동기화 중"
+  },
+  "noticeOffline": {
+    "message": "네트워크 연결 없음"
+  },
+  "noticeFailed": {
+    "message": "클라우드 동기화 실패"
+  },
+  "noticeError": {
+    "message": "클라우드 동기화 오류"
+  },
+  "noticeLocalRetry": {
+    "message": "로컬 설정을 유지하고 자동으로 재시도합니다."
+  },
+  "noticeUsingLocal": {
+    "message": "로컬 설정을 사용합니다. 설정에서 동기화를 확인하세요."
+  },
+  "syncNetworkFailure": {
+    "message": "클라우드 서비스에 연결할 수 없습니다. 로컬 변경을 유지하고 자동으로 재시도합니다."
+  },
+  "shortcutCanvas": {
+    "message": "빈 공간을 클릭해 설정 열기"
+  },
+  "shortcutIcon": {
+    "message": "사이트 아이콘을 클릭해 모양 변경"
+  },
+  "syncDiagnostics": {
+    "message": "동기화 진단 다운로드"
+  }
+}

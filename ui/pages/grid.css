@@ -1,0 +1,20 @@
+#grid{display:grid;grid-template-columns:repeat(auto-fit,var(--grid-cell));gap:var(--grid-row-gap) var(--grid-column-gap);max-width:var(--grid-max-width);margin:0 auto;padding:var(--grid-top-space) 24px 80px;justify-content:center;align-content:start;min-height:100dvh}
+.tile{width:var(--grid-cell);height:104px;text-align:center;color:inherit;text-decoration:none;display:flex;align-items:center;flex-direction:column;user-select:none;-webkit-user-drag:none;touch-action:pan-y;will-change:auto}
+.tile:focus,.tile:focus-visible{outline:none!important}
+.icon{width:var(--icon-size);height:var(--icon-size);flex-shrink:0;display:grid;place-items:center;background:var(--tile-bg,transparent);border-radius:var(--radius-icon);corner-shape:var(--corner-g2);overflow:hidden;isolation:isolate}
+.icon img{width:100%;height:100%;object-fit:contain;transform:scale(var(--scale-factor,1));pointer-events:none}
+.letter{font-size:calc(var(--glyph-size,34px)*var(--scale-factor,1));font-weight:400;line-height:1;color:var(--glyph-color,#fff);pointer-events:none}
+.label{display:block;width:var(--grid-cell);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:10px;line-height:20px}
+.tile.drag-placeholder{visibility:hidden}
+.drag-ghost{position:fixed;inset:0 auto auto 0;z-index:30;pointer-events:none;cursor:grabbing;will-change:transform}
+.drag-active,.drag-active *{cursor:grabbing!important}
+#preview .icon{width:112px;height:112px;border-radius:var(--radius-preview);corner-shape:var(--corner-g2)}
+#preview .letter{font-size:calc(var(--glyph-size,34px)*1.55*var(--scale-factor,1))}
+@media(max-width:400px){#grid{column-gap:12px;padding-inline:12px;padding-top:80px}}
+@media(prefers-reduced-motion:reduce){.tile{scroll-behavior:auto}}
+#grid{contain:layout style}
+.icon img{transform:translate(calc(var(--offset-x,0)*1%),calc(var(--offset-y,0)*1%)) scale(var(--scale-factor,1));object-position:50% 50%}
+#preview-art .icon{box-shadow:0 2px 7px #00000010,0 9px 24px #0000000c}
+.tile{appearance:none;-webkit-appearance:none;border:0;padding:0;background:transparent;font:inherit;color:inherit;cursor:pointer}
+#grid{min-height:100dvh}
+html,body,#grid{cursor:default}

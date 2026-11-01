@@ -1,0 +1,452 @@
+{
+  "extensionName": {
+    "message": "Yiu‘s tab"
+  },
+  "extensionDescription": {
+    "message": "簡潔的新分頁：自適應書籤網格、清晰圖示、拖曳排序，自動跟隨淺色與深色主題。"
+  },
+  "syncActivity": {
+    "message": "同步与恢复"
+  },
+  "diagnosticsTitle": {
+    "message": "同步诊断"
+  },
+  "syncRecover": {
+    "message": "从云端恢复网站与图标"
+  },
+  "syncEmptyGuard": {
+    "message": "已阻止空配置覆盖。请使用“从云端恢复网站与图标”。"
+  },
+  "syncNoRecovery": {
+    "message": "云端当前版本和保留的上一版都没有网站，请从云盘历史版本恢复配置文件。"
+  },
+  "appStore": {
+    "message": "Apple App Store"
+  },
+  "appStoreMatch": {
+    "message": "匹配应用"
+  },
+  "openExtensionOptions": {
+    "message": "打开扩展程序选项（新标签页）"
+  },
+  "chinaStore": {
+    "message": "国区"
+  },
+  "usStore": {
+    "message": "美区"
+  },
+  "noWebsiteIcon": {
+    "message": "未找到可用的网站图标"
+  },
+  "noAppStoreIcon": {
+    "message": "没有找到匹配的 App Store 应用"
+  },
+  "iconSettings": {
+    "message": "图标设置"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "appearance": {
+    "message": "外观"
+  },
+  "websiteImage": {
+    "message": "网站原图"
+  },
+  "initialLetter": {
+    "message": "彩色首字母"
+  },
+  "background": {
+    "message": "底色"
+  },
+  "chooseColor": {
+    "message": "选择底色"
+  },
+  "scale": {
+    "message": "缩放"
+  },
+  "iconSource": {
+    "message": "图标来源"
+  },
+  "bestQuality": {
+    "message": "质量最佳"
+  },
+  "localUpload": {
+    "message": "本地上传"
+  },
+  "chooseFile": {
+    "message": "选择文件"
+  },
+  "reset": {
+    "message": "恢复默认"
+  },
+  "resetButton": {
+    "message": "恢复到初始状态"
+  },
+  "resetting": {
+    "message": "正在恢复…"
+  },
+  "resetDone": {
+    "message": "✓ 已恢复"
+  },
+  "privacyNotice": {
+    "message": "仅在选择第三方来源时请求配置的接口，可在扩展程序设置中更改。"
+  },
+  "gridLabel": {
+    "message": "New tab 收藏网站"
+  },
+  "iconActionHint": {
+    "message": "；Option 或 Alt 点击设置图标"
+  },
+  "openFailed": {
+    "message": "无法打开此地址，请在书签管理器中检查网址。"
+  },
+  "orderFailed": {
+    "message": "排序保存失败，请重试。"
+  },
+  "missingFolder": {
+    "message": "请在 Chrome 书签中创建「New tab」文件夹，并把网站收藏到其中。"
+  },
+  "emptyFolder": {
+    "message": "在浏览器书签管理器中，将网站添加到「其他书签 → Yiu’s tab」文件夹，即可显示在这里。文件夹可以移动或改名，请保留其中的 ID 识别书签。"
+  },
+  "bookmarksFailed": {
+    "message": "读取书签失败，请重新打开新标签页。"
+  },
+  "candidateIcon": {
+    "message": "网站图标"
+  },
+  "localImage": {
+    "message": "本地图片"
+  },
+  "thirdParty": {
+    "message": "第三方来源"
+  },
+  "loadingIcon": {
+    "message": "正在获取图标"
+  },
+  "fetchFailed": {
+    "message": "获取失败，请稍后重试。"
+  },
+  "noThirdPartyIcon": {
+    "message": "第三方来源未找到高清图标"
+  },
+  "imageLoaded": {
+    "message": "图片已载入，保存后应用。"
+  },
+  "saveFailed": {
+    "message": "保存失败，请重试。"
+  },
+  "extensionOnly": {
+    "message": "请将本文件夹作为 Chrome 扩展加载后，打开新标签页。"
+  },
+  "fileTooLarge": {
+    "message": "文件过大"
+  },
+  "emptyResponse": {
+    "message": "空响应"
+  },
+  "imageTooLarge": {
+    "message": "图片不能超过 {max} MB"
+  },
+  "imageTimeout": {
+    "message": "图片加载超时"
+  },
+  "imageUnreadable": {
+    "message": "无法读取图片"
+  },
+  "httpError": {
+    "message": "服务器返回 HTTP {code}"
+  },
+  "svLabel": {
+    "message": "饱和度和明度"
+  },
+  "eyedropper": {
+    "message": "从屏幕吸取颜色"
+  },
+  "hue": {
+    "message": "色相"
+  },
+  "opacity": {
+    "message": "不透明度"
+  },
+  "colorFormat": {
+    "message": "颜色格式"
+  },
+  "hexColor": {
+    "message": "十六进制颜色"
+  },
+  "hslHue": {
+    "message": "HSL 色相"
+  },
+  "hslSaturation": {
+    "message": "HSL 饱和度"
+  },
+  "hslLightness": {
+    "message": "HSL 亮度"
+  },
+  "colorOpacity": {
+    "message": "颜色不透明度"
+  },
+  "red": {
+    "message": "红色"
+  },
+  "green": {
+    "message": "绿色"
+  },
+  "blue": {
+    "message": "蓝色"
+  },
+  "svValue": {
+    "message": "饱和度 {s}%，明度 {v}%"
+  },
+  "currentColor": {
+    "message": "选择底色，当前 {color}"
+  },
+  "extensionSettings": {
+    "message": "扩展程序设置"
+  },
+  "configuration": {
+    "message": "配置文件"
+  },
+  "backupHint": {
+    "message": "将书签、排序、图标外观、颜色与透明度、缩放、图片位置、图标来源和本地图片打包为可恢复的 JSON 文件。"
+  },
+  "exportConfig": {
+    "message": "下载完整配置"
+  },
+  "importConfig": {
+    "message": "导入配置"
+  },
+  "backupPrivacy": {
+    "message": "备份包含网址与图片，请妥善保管。云端密码不包含在备份中；最大 64 MB。"
+  },
+  "importHint": {
+    "message": "按网址匹配 New tab 中的书签，补充缺失网站，应用备份中的图标设置与排序，保留其他书签。"
+  },
+  "applyImport": {
+    "message": "应用此配置"
+  },
+  "cancelImport": {
+    "message": "取消"
+  },
+  "importSummary": {
+    "message": "已读取 {count} 个网站，{images} 组图标图片。"
+  },
+  "readyToImport": {
+    "message": "请检查导入内容，然后应用配置。"
+  },
+  "importCancelled": {
+    "message": "已取消导入。"
+  },
+  "imported": {
+    "message": "配置已应用，已打开的新标签页会自动刷新。"
+  },
+  "exported": {
+    "message": "配置文件已生成。"
+  },
+  "working": {
+    "message": "正在处理…"
+  },
+  "operationFailed": {
+    "message": "操作失败：{detail}"
+  },
+  "invalidBackup": {
+    "message": "配置文件格式无效，或图片数据不完整。"
+  },
+  "backupTooLarge": {
+    "message": "配置文件不能超过 64 MB。"
+  },
+  "invalidTemplate": {
+    "message": "接口需使用 HTTP(S)，并包含 {domain} 或 {url} 占位符。"
+  },
+  "invalidCloudURL": {
+    "message": "请输入 HTTPS 云端文件完整地址，不要在地址中写入账号密码。"
+  },
+  "cloudSettings": {
+    "message": "云同步接口"
+  },
+  "cloudHint": {
+    "message": "填写服务商提供的服务器地址、账号和应用密码。开启后自动同步配置和图标。"
+  },
+  "cloudURL": {
+    "message": "WebDAV 服务器地址"
+  },
+  "cloudUser": {
+    "message": "账号（可选）"
+  },
+  "cloudPassword": {
+    "message": "应用密码（可选）"
+  },
+  "rememberSecret": {
+    "message": "在本机保存账号与应用密码"
+  },
+  "cloudPrivacy": {
+    "message": "启用后会将网址、配置和图标发送至上方地址。账号与应用密码仅保存在本机，不随配置同步。"
+  },
+  "allowOverwrite": {
+    "message": "允许本次上传覆盖云端同名配置文件"
+  },
+  "cloudPush": {
+    "message": "上传完整配置"
+  },
+  "cloudPull": {
+    "message": "下载并检查云端配置"
+  },
+  "overwriteRequired": {
+    "message": "上传前请勾选允许覆盖云端配置文件。"
+  },
+  "cloudUploaded": {
+    "message": "完整配置已上传。"
+  },
+  "edgeHint": {
+    "message": "Chrome 中的扩展无法借用 Edge 账号的同步。浏览器自身的同步与图片备份是两回事；此接口可独立于浏览器使用。"
+  },
+  "webdavHelp": {
+    "message": "坚果云 WebDAV 应用密码说明 ↗"
+  },
+  "saveSettings": {
+    "message": "保存设置"
+  },
+  "settingsSaved": {
+    "message": "设置已保存。"
+  },
+  "presetSelected": {
+    "message": "接口已填入，保存设置后生效。"
+  },
+  "interfaceURL": {
+    "message": "第三方图标接口网址"
+  },
+  "thirdPartySettings": {
+    "message": "第三方图标来源"
+  },
+  "thirdPartyHint": {
+    "message": "优先直接读取网站图标。只有在单个图标设置中选择「第三方来源」时，才会调用这里的接口。"
+  },
+  "templateHint": {
+    "message": "支持 {domain}（域名）、{url}（完整网址）、{size}（256）。变量自动 URL 编码；接口应直接返回图片。"
+  },
+  "providerHint": {
+    "message": "大陆网络可先尝试 Favicon.org.cn（官网可免费申请 Key，按文档填写接口）；免 Key 可试 Favicon.im。各服务的网络可达性和免费额度由提供方决定。"
+  },
+  "chinaProvider": {
+    "message": "Favicon.org.cn 免费 Key 与文档 ↗"
+  },
+  "fixFields": {
+    "message": "请检查标出的输入项，修改后会自动保存。"
+  },
+  "syncEnable": {
+    "message": "启用自动同步（在本机保存应用密码）"
+  },
+  "syncNow": {
+    "message": "立即检查"
+  },
+  "syncKeepLocal": {
+    "message": "保留本地"
+  },
+  "syncKeepRemote": {
+    "message": "保留云端"
+  },
+  "syncConflictHint": {
+    "message": "同一项在两台设备上被修改。其他变化已保留，请选择冲突项使用的版本。"
+  },
+  "syncDisabled": {
+    "message": "自动同步未开启"
+  },
+  "syncChecking": {
+    "message": "正在检查云端变化…"
+  },
+  "syncWorking": {
+    "message": "正在同步配置与图标…"
+  },
+  "syncComplete": {
+    "message": "配置与图标已同步"
+  },
+  "syncPending": {
+    "message": "本机修改已保存，等待同步"
+  },
+  "syncConflict": {
+    "message": "发现冲突，请选择保留的版本"
+  },
+  "syncOffline": {
+    "message": "网络暂时不可用，本机修改已保留，将自动重试。"
+  },
+  "syncAuth": {
+    "message": "认证或访问权限失败，请检查账号和应用密码。"
+  },
+  "syncUnsupported": {
+    "message": "云端版本校验未通过（ETag 或条件写入不兼容），已保留本地配置。"
+  },
+  "syncFolder": {
+    "message": "无法创建图标目录，请确认云端文件的上级目录存在且允许写入。"
+  },
+  "syncInvalidData": {
+    "message": "云端配置格式不兼容或图片校验失败。原文件不会被覆盖。"
+  },
+  "syncTooLarge": {
+    "message": "配置或图片超过同步大小限制。"
+  },
+  "syncRemember": {
+    "message": "后台同步需要在本机保存账号和应用密码。"
+  },
+  "syncHTTP": {
+    "message": "云服务暂时无法完成请求，将自动重试。"
+  },
+  "syncAsset": {
+    "message": "部分图标暂时无法下载，本机配置保持不变，将自动重试。"
+  },
+  "syncBusy": {
+    "message": "云端正在整理文件，将稍后自动重试。"
+  },
+  "syncRace": {
+    "message": "另一台设备刚刚更新，将重新检查并合并。"
+  },
+  "syncLocalChanged": {
+    "message": "正在保存新修改，将稍后同步。"
+  },
+  "syncFailed": {
+    "message": "同步暂时未完成，本机修改已保留。"
+  },
+  "syncLastTime": {
+    "message": "最近同步：{time}"
+  },
+  "syncPreview": {
+    "message": "测试页不连接云服务，请在扩展中配置自动同步。"
+  },
+  "syncFormat": {
+    "message": "云端已有不兼容格式的文件，请改用新的空白配置文件地址，原文件不会被覆盖。"
+  },
+  "noticeSyncing": {
+    "message": "云同步中"
+  },
+  "noticeOffline": {
+    "message": "无网络连接"
+  },
+  "noticeFailed": {
+    "message": "云同步失败"
+  },
+  "noticeError": {
+    "message": "云同步出错"
+  },
+  "noticeLocalRetry": {
+    "message": "已保留本地配置，将自动重试。"
+  },
+  "noticeUsingLocal": {
+    "message": "已使用本地配置，请在设置中检查同步。"
+  },
+  "syncNetworkFailure": {
+    "message": "无法连接云服务，本机修改已保留，将自动重试。"
+  },
+  "shortcutCanvas": {
+    "message": "点击空白处打开设置"
+  },
+  "shortcutIcon": {
+    "message": "点击网站图标调整外观"
+  },
+  "syncDiagnostics": {
+    "message": "下载同步诊断"
+  }
+}

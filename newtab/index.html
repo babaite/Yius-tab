@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yiu‘s tab</title><link id="tab-favicon" rel="icon" href="../icon/tab.svg" type="image/svg+xml" data-system="../icon/tab.svg" data-light="../icon/earth32.png" data-dark="../icon/moon32.png"><link rel="stylesheet" href="surfaces.css"><link rel="stylesheet" href="index.css"><link rel="stylesheet" href="notifications.css"><link rel="stylesheet" href="scrollbars.css"></head><body>
+<div class="top-blur" aria-hidden="true"></div><main data-i18n-aria="gridLabel" id="grid" aria-label="New tab 收藏网站"></main><p id="status" role="status"></p>
+<dialog id="settings" aria-labelledby="dialog-title"><form id="form">
+<header class="settings-header"><button type="button" id="close" class="circle-button" data-i18n-aria="close" aria-label="关闭"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></button><h1 data-i18n="iconSettings" id="dialog-title">图标设置</h1><span></span></header>
+<div class="settings-identity"><div id="preview" aria-busy="false"><div id="preview-art" aria-hidden="true"></div><span class="preview-loader" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/></svg></span></div><span id="icon-loading-status" class="sr-only" role="status"></span><p id="site-name"></p></div>
+<section class="settings-group" data-i18n-aria="appearance" aria-label="图标外观">
+<div class="settings-row"><span data-i18n="appearance" id="appearance-label">外观</span><select id="appearance"><option data-i18n="websiteImage" value="image">网站原图</option><option data-i18n="initialLetter" value="letter">彩色首字母</option></select></div>
+<div class="settings-row"><span data-i18n="background">底色</span><input id="color" type="text" hidden><button id="color-swatch" type="button" data-i18n-aria="chooseColor" aria-label="选择底色" aria-haspopup="dialog" aria-expanded="false"><span></span></button></div>
+<label class="settings-row" for="scale"><span data-i18n="scale">缩放</span><div class="range-control"><input id="scale" type="range" min="45" max="125" value="100"><output id="scale-value">100%</output></div></label>
+</section>
+<section class="settings-group" data-i18n-aria="iconSource" aria-label="图标来源">
+<div class="settings-row"><span data-i18n="iconSource" id="source-label">图标来源</span><select id="source"><option data-i18n="bestQuality" value="auto">质量最佳</option></select></div>
+<div class="settings-row upload-row" id="upload-row"><span data-i18n="localUpload">本地上传</span><button data-i18n="chooseFile" class="file-button" id="upload-button" type="button" disabled>选择文件</button><input id="upload" type="file" accept="image/png,image/jpeg,image/webp,image/avif,image/gif,image/bmp,image/svg+xml,image/x-icon,.jpg,.jpeg,.png,.webp,.avif,.gif,.bmp,.svg,.ico,.icon" hidden disabled></div>
+<div class="settings-row"><span data-i18n="reset">恢复默认</span><button data-i18n="resetButton" id="reset" type="button" class="quiet-button">恢复到初始状态</button></div>
+</section>
+<p id="dialog-status" role="status"></p>
+<footer class="settings-footer"><button type="submit" class="circle-button save-button" data-i18n-aria="save" data-i18n-title="save" aria-label="保存" title="保存"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></button></footer>
+<div id="color-panel" class="color-panel" role="dialog" data-i18n-aria="chooseColor" aria-label="选择底色" hidden></div></form></dialog>
+<script type="module" src="js/app.js"></script></body></html>

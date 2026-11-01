@@ -1,0 +1,34 @@
+:root{--notice-tint:#ffffffa8;--notice-ink:#202124;--notice-edge:#ffffff99;--notice-shadow:0 8px 28px #00000024,0 1px 3px #00000015;--notice-icon:#147bf3;--notice-icon-bg:#1684ff19}
+@media(prefers-color-scheme:dark){:root{--notice-tint:#303133a8;--notice-ink:#f5f6f8;--notice-edge:#ffffff24;--notice-shadow:0 8px 28px #0005,0 1px 3px #0003;--notice-icon:#80baff;--notice-icon-bg:#62a5ff26}}
+html[data-theme=light]{--notice-tint:#ffffffa8;--notice-ink:#202124;--notice-edge:#ffffff99;--notice-shadow:0 8px 28px #00000024,0 1px 3px #00000015;--notice-icon:#147bf3;--notice-icon-bg:#1684ff19}
+html[data-theme=dark]{--notice-tint:#303133a8;--notice-ink:#f5f6f8;--notice-edge:#ffffff24;--notice-shadow:0 8px 28px #0005,0 1px 3px #0003;--notice-icon:#80baff;--notice-icon-bg:#62a5ff26}
+.sync-notice{box-sizing:border-box;position:fixed;inset:auto 24px 24px auto;margin:0;width:340px;max-width:calc(100vw - 32px);min-height:80px;display:flex;align-items:center;gap:11px;padding:14px 16px;border:0;border-radius:var(--radius-notification);corner-shape:var(--corner-g2);color:var(--notice-ink);background:transparent;box-shadow:var(--notice-shadow);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;opacity:0;transform:translateY(calc(100% + 32px));transition:transform var(--time-240) var(--ease-notice-exit),opacity var(--time-180) ease;pointer-events:none;user-select:none;-webkit-user-select:none;z-index:2147483647}
+.sync-notice[hidden],.sync-notice:not(:popover-open){display:none}
+.sync-notice.is-visible{opacity:1;transform:translateY(0);transition:transform var(--time-420) var(--ease-notice-enter),opacity var(--time-180) ease-out}
+.sync-notice-glass{position:absolute!important;inset:0;z-index:-1;border-radius:inherit;corner-shape:inherit;pointer-events:none}
+.sync-notice-glass::after{content:"";position:absolute;inset:0;background:var(--notice-tint);border-radius:inherit;corner-shape:inherit;pointer-events:none}
+.sync-notice-icon{flex:0 0 36px;height:36px;display:grid;place-items:center;border-radius:var(--radius-13);corner-shape:var(--corner-g2);color:var(--notice-icon);background:var(--notice-icon-bg)}
+.sync-notice-icon svg{width:27px;height:27px}
+.sync-notice-content{flex:1;min-width:0}
+.sync-notice-title{margin:0;font-size:14px;font-weight:650;color:inherit;overflow-wrap:anywhere}
+.sync-notice-detail{margin:4px 0 0;font-size:12px;line-height:1.5;color:inherit;opacity:.72;overflow-wrap:anywhere}
+.sync-notice-indicator{flex:0 0 28px;height:28px;position:relative;opacity:0;transition:opacity var(--time-150) ease}
+.sync-notice[data-kind=syncing] .sync-notice-indicator,.sync-notice[data-kind=success] .sync-notice-indicator{opacity:1}
+.sync-notice-indicator svg{position:absolute;inset:0;width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round}
+.sync-notice-spinner{opacity:0;transition:opacity var(--time-160) ease;animation:sync-notice-spin var(--time-900) linear infinite;animation-play-state:paused}
+.sync-notice[data-kind=syncing] .sync-notice-spinner{opacity:1;animation-play-state:running}
+.spinner-track{opacity:.14}.spinner-arc{stroke-dasharray:62 88}
+.sync-notice-check{opacity:0;transition:opacity var(--time-160) ease var(--time-120);color:var(--notice-icon)}
+.sync-notice-check circle,.sync-notice-check path{stroke-dasharray:1;stroke-dashoffset:1}
+.sync-notice[data-kind=success] .sync-notice-check{opacity:1}
+.sync-notice[data-kind=success] .sync-notice-check circle{animation:sync-notice-draw var(--time-330) ease-out var(--time-160) forwards}
+.sync-notice[data-kind=success] .sync-notice-check path{animation:sync-notice-draw var(--time-260) cubic-bezier(.2,.8,.3,1) var(--time-400) forwards}
+.sync-notice[data-kind=offline],.sync-notice[data-kind=failed],.sync-notice[data-kind=error]{--notice-icon:#d78428;--notice-icon-bg:#d784281b}
+.sync-notice:not([data-kind=syncing]):not([data-kind=success]) .sync-notice-indicator{display:none}
+@keyframes sync-notice-spin{to{transform:rotate(360deg)}}
+@keyframes sync-notice-draw{to{stroke-dashoffset:0}}
+@media(max-width:480px){.sync-notice{right:16px;bottom:16px}}
+@media(prefers-reduced-motion:reduce){.sync-notice,.sync-notice.is-visible{transition:opacity var(--time-100) ease;transform:none}.sync-notice-spinner{animation-duration:var(--time-1800)}.sync-notice[data-kind=success] .sync-notice-check circle,.sync-notice[data-kind=success] .sync-notice-check path{animation-duration:var(--time-1);animation-delay:var(--time-160)}}
+
+ 
+.sync-notice{overflow:clip;scrollbar-width:none}.sync-notice::-webkit-scrollbar{display:none;width:0;height:0}

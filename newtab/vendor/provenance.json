@@ -1,0 +1,11 @@
+{
+  "package": "simple-liquid-glass",
+  "version": "5.6.0",
+  "source": "https://registry.npmjs.org/simple-liquid-glass/-/simple-liquid-glass-5.6.0.tgz",
+  "repository": "https://github.com/lucaperullo/simple-liquid-glass",
+  "sha256": "d31721d073fa07b0e3132e40bef0003ed22350e25da3e99d8c7095e62ab5787b",
+  "bytes": 122478,
+  "gzipBytes": 39360,
+  "renderer": "svg",
+  "continuousLiquidAnimation": false
+}

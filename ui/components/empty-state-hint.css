@@ -1,0 +1,10 @@
+.empty-state-hint{position:absolute;inset:112px 24px auto;max-width:720px;margin-inline:auto;display:grid;justify-items:center;gap:20px;color:var(--text);line-height:1.8}
+.empty-state-hint[hidden],.empty-state-shortcuts[hidden]{display:none}
+.empty-state-hint #status{position:static;inset:auto;margin:0;text-align:center;overflow-wrap:anywhere}
+.empty-state-shortcuts{display:grid;gap:12px;max-width:100%}
+.shortcut-hint{display:flex;align-items:center;gap:8px;font-size:13px;line-height:1.6}
+.shortcut-hint kbd{display:grid;place-items:center;flex:none;min-width:28px;height:26px;padding-inline:5px;font-family:inherit;font-size:13px;font-weight:500;line-height:1;border:1px solid color-mix(in srgb,var(--text) 16%,transparent);border-radius:var(--radius-7);corner-shape:var(--corner-g2);background:var(--panel)}
+.shortcut-plus{opacity:.6}
+.shortcut-hint svg{width:20px;height:24px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.shortcut-hint>span:last-child{min-width:0;overflow-wrap:anywhere}
+@media(max-width:400px){.empty-state-hint{inset:80px 20px auto}}

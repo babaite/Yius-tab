@@ -1,0 +1,452 @@
+{
+  "extensionName": {
+    "message": "Yiu‘s tab"
+  },
+  "extensionDescription": {
+    "message": "A clean new tab with a responsive bookmark grid, crisp icons, drag sorting, and automatic light and dark themes."
+  },
+  "syncActivity": {
+    "message": "Sync and recovery"
+  },
+  "diagnosticsTitle": {
+    "message": "Sync diagnostics"
+  },
+  "syncRecover": {
+    "message": "Restore websites and icons from cloud"
+  },
+  "syncEmptyGuard": {
+    "message": "Empty configuration blocked. Use Restore websites and icons from cloud."
+  },
+  "syncNoRecovery": {
+    "message": "Neither the cloud version nor its retained previous version contains websites. Restore a file version from your cloud provider."
+  },
+  "appStore": {
+    "message": "Apple App Store"
+  },
+  "appStoreMatch": {
+    "message": "Matching app"
+  },
+  "openExtensionOptions": {
+    "message": "Open extension options (new tab)"
+  },
+  "chinaStore": {
+    "message": "China"
+  },
+  "usStore": {
+    "message": "US"
+  },
+  "noWebsiteIcon": {
+    "message": "No website icons were found."
+  },
+  "noAppStoreIcon": {
+    "message": "No matching App Store app was found."
+  },
+  "iconSettings": {
+    "message": "Icon settings"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "appearance": {
+    "message": "Appearance"
+  },
+  "websiteImage": {
+    "message": "Website image"
+  },
+  "initialLetter": {
+    "message": "Initial letter"
+  },
+  "background": {
+    "message": "Background"
+  },
+  "chooseColor": {
+    "message": "Choose color"
+  },
+  "scale": {
+    "message": "Scale"
+  },
+  "iconSource": {
+    "message": "Icon source"
+  },
+  "bestQuality": {
+    "message": "Best quality"
+  },
+  "localUpload": {
+    "message": "Local image"
+  },
+  "chooseFile": {
+    "message": "Choose file"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "resetButton": {
+    "message": "Reset to default"
+  },
+  "resetting": {
+    "message": "Resetting…"
+  },
+  "resetDone": {
+    "message": "✓ Reset"
+  },
+  "privacyNotice": {
+    "message": "The configured interface is called only when selected. Change it in extension settings."
+  },
+  "gridLabel": {
+    "message": "New tab bookmarks"
+  },
+  "iconActionHint": {
+    "message": "; Option/Alt-click to edit icon"
+  },
+  "openFailed": {
+    "message": "Could not open this address. Check the URL in your bookmarks."
+  },
+  "orderFailed": {
+    "message": "Could not save the order. Please try again."
+  },
+  "missingFolder": {
+    "message": "Create a “New tab” folder in Chrome bookmarks and add websites to it."
+  },
+  "emptyFolder": {
+    "message": "In the browser bookmark manager, add websites to Other bookmarks → Yiu’s tab. You can move or rename the folder; keep its ID bookmark."
+  },
+  "bookmarksFailed": {
+    "message": "Could not read bookmarks. Open a new tab and try again."
+  },
+  "candidateIcon": {
+    "message": "Website icon"
+  },
+  "localImage": {
+    "message": "Local image"
+  },
+  "thirdParty": {
+    "message": "Third-party"
+  },
+  "loadingIcon": {
+    "message": "Loading icon"
+  },
+  "fetchFailed": {
+    "message": "Could not load the icon. Please try again later."
+  },
+  "noThirdPartyIcon": {
+    "message": "No high-resolution icon was found by the third-party source."
+  },
+  "imageLoaded": {
+    "message": "Image loaded. Save to apply."
+  },
+  "saveFailed": {
+    "message": "Could not save changes. Please try again."
+  },
+  "extensionOnly": {
+    "message": "Load this folder as a Chrome extension, then open a new tab."
+  },
+  "fileTooLarge": {
+    "message": "The file is too large."
+  },
+  "emptyResponse": {
+    "message": "The server returned an empty response."
+  },
+  "imageTooLarge": {
+    "message": "Images must be {max} MB or smaller."
+  },
+  "imageTimeout": {
+    "message": "The image took too long to load."
+  },
+  "imageUnreadable": {
+    "message": "This image could not be read."
+  },
+  "httpError": {
+    "message": "The server returned HTTP {code}."
+  },
+  "svLabel": {
+    "message": "Saturation and brightness"
+  },
+  "eyedropper": {
+    "message": "Pick a color from the screen"
+  },
+  "hue": {
+    "message": "Hue"
+  },
+  "opacity": {
+    "message": "Opacity"
+  },
+  "colorFormat": {
+    "message": "Color format"
+  },
+  "hexColor": {
+    "message": "Hex color"
+  },
+  "hslHue": {
+    "message": "HSL hue"
+  },
+  "hslSaturation": {
+    "message": "HSL saturation"
+  },
+  "hslLightness": {
+    "message": "HSL lightness"
+  },
+  "colorOpacity": {
+    "message": "Color opacity"
+  },
+  "red": {
+    "message": "Red"
+  },
+  "green": {
+    "message": "Green"
+  },
+  "blue": {
+    "message": "Blue"
+  },
+  "svValue": {
+    "message": "Saturation {s}%, brightness {v}%"
+  },
+  "currentColor": {
+    "message": "Choose color, current {color}"
+  },
+  "extensionSettings": {
+    "message": "Extension settings"
+  },
+  "configuration": {
+    "message": "Configuration"
+  },
+  "backupHint": {
+    "message": "Back up bookmarks, order, icon appearance, color and opacity, scale, image position, sources, and local images in a restorable JSON file."
+  },
+  "exportConfig": {
+    "message": "Download configuration"
+  },
+  "importConfig": {
+    "message": "Import configuration"
+  },
+  "backupPrivacy": {
+    "message": "Backups contain URLs and images. Keep them private. Cloud passwords are excluded. Maximum: 64 MB."
+  },
+  "importHint": {
+    "message": "Match bookmarks in New tab by URL, add missing sites, and apply the saved icon settings and order. Other bookmarks are kept."
+  },
+  "applyImport": {
+    "message": "Apply configuration"
+  },
+  "cancelImport": {
+    "message": "Cancel"
+  },
+  "importSummary": {
+    "message": "Loaded {count} sites and {images} icon records."
+  },
+  "readyToImport": {
+    "message": "Review the import, then apply it."
+  },
+  "importCancelled": {
+    "message": "Import cancelled."
+  },
+  "imported": {
+    "message": "Configuration applied. Open new tab pages will refresh."
+  },
+  "exported": {
+    "message": "Configuration file generated."
+  },
+  "working": {
+    "message": "Working…"
+  },
+  "operationFailed": {
+    "message": "Operation failed: {detail}"
+  },
+  "invalidBackup": {
+    "message": "Invalid configuration file or incomplete image data."
+  },
+  "backupTooLarge": {
+    "message": "Configuration files must be smaller than 64 MB."
+  },
+  "invalidTemplate": {
+    "message": "Use an HTTP(S) interface with a domain or URL placeholder."
+  },
+  "invalidCloudURL": {
+    "message": "Enter the full HTTPS cloud file URL without embedded credentials."
+  },
+  "cloudSettings": {
+    "message": "Cloud sync interface"
+  },
+  "cloudHint": {
+    "message": "Enter the server URL, username, and app password supplied by your provider. Sync configuration and icons automatically when enabled."
+  },
+  "cloudURL": {
+    "message": "WebDAV server URL"
+  },
+  "cloudUser": {
+    "message": "Username (optional)"
+  },
+  "cloudPassword": {
+    "message": "App password (optional)"
+  },
+  "rememberSecret": {
+    "message": "Save username and app password on this device"
+  },
+  "cloudPrivacy": {
+    "message": "When enabled, URLs, configuration, and icons are sent to the address above. Account credentials stay on this device and are not synced."
+  },
+  "allowOverwrite": {
+    "message": "Allow this upload to replace the cloud configuration file"
+  },
+  "cloudPush": {
+    "message": "Upload configuration"
+  },
+  "cloudPull": {
+    "message": "Download and review"
+  },
+  "overwriteRequired": {
+    "message": "Allow replacing the cloud file before uploading."
+  },
+  "cloudUploaded": {
+    "message": "Configuration uploaded."
+  },
+  "edgeHint": {
+    "message": "An extension in Chrome cannot use Edge account sync. Browser sync and image backups are separate; this interface works independently of the browser."
+  },
+  "webdavHelp": {
+    "message": "Jianguoyun WebDAV setup ↗"
+  },
+  "saveSettings": {
+    "message": "Save settings"
+  },
+  "settingsSaved": {
+    "message": "Settings saved."
+  },
+  "presetSelected": {
+    "message": "Interface filled in. Save settings to apply it."
+  },
+  "interfaceURL": {
+    "message": "Third-party icon URL"
+  },
+  "thirdPartySettings": {
+    "message": "Third-party icon source"
+  },
+  "thirdPartyHint": {
+    "message": "Website icons remain the first choice. This interface is called only when you select the third-party source for an individual icon."
+  },
+  "templateHint": {
+    "message": "Placeholders: {domain} (hostname), {url} (full URL), {size} (256). Values are URL-encoded. The interface must return an image."
+  },
+  "providerHint": {
+    "message": "For mainland China, consider Favicon.org.cn (a free key is available on its site). Favicon.im requires no key. Availability and free quotas depend on the provider."
+  },
+  "chinaProvider": {
+    "message": "Favicon.org.cn free key and docs ↗"
+  },
+  "fixFields": {
+    "message": "Check the highlighted fields. Changes are saved automatically."
+  },
+  "syncEnable": {
+    "message": "Enable automatic sync (save app credentials on this device)"
+  },
+  "syncNow": {
+    "message": "Check now"
+  },
+  "syncKeepLocal": {
+    "message": "Use local"
+  },
+  "syncKeepRemote": {
+    "message": "Use cloud"
+  },
+  "syncConflictHint": {
+    "message": "The same item changed on two devices. Other changes are preserved. Choose which values to keep for conflicts."
+  },
+  "syncDisabled": {
+    "message": "Automatic sync is off"
+  },
+  "syncChecking": {
+    "message": "Checking for cloud changes…"
+  },
+  "syncWorking": {
+    "message": "Syncing configuration and icons…"
+  },
+  "syncComplete": {
+    "message": "Configuration and icons are up to date"
+  },
+  "syncPending": {
+    "message": "Changes saved locally; waiting to sync"
+  },
+  "syncConflict": {
+    "message": "Conflicting changes need your choice"
+  },
+  "syncOffline": {
+    "message": "Network unavailable. Local changes are kept and will retry automatically."
+  },
+  "syncAuth": {
+    "message": "Authentication or access failed. Check the account and app password."
+  },
+  "syncUnsupported": {
+    "message": "Cloud version checks failed (ETag or conditional writes). Local settings are retained."
+  },
+  "syncFolder": {
+    "message": "Cannot create the icon directory. Make sure the parent folder exists and is writable."
+  },
+  "syncInvalidData": {
+    "message": "Cloud data is incompatible or failed image verification. The original file will not be overwritten."
+  },
+  "syncTooLarge": {
+    "message": "Configuration or images exceed the sync size limit."
+  },
+  "syncRemember": {
+    "message": "Background sync needs credentials saved on this device."
+  },
+  "syncHTTP": {
+    "message": "The cloud service could not complete the request. Retrying automatically."
+  },
+  "syncAsset": {
+    "message": "Some icons could not be downloaded. Local configuration is unchanged; retrying automatically."
+  },
+  "syncBusy": {
+    "message": "Cloud maintenance is running. Retrying shortly."
+  },
+  "syncRace": {
+    "message": "Another device just updated the cloud. Checking and merging again."
+  },
+  "syncLocalChanged": {
+    "message": "New changes are being saved. Syncing shortly."
+  },
+  "syncFailed": {
+    "message": "Sync is incomplete. Local changes are preserved."
+  },
+  "syncLastTime": {
+    "message": "Last synced: {time}"
+  },
+  "syncPreview": {
+    "message": "This preview does not connect to the cloud. Configure sync in the extension."
+  },
+  "syncFormat": {
+    "message": "The cloud file uses an incompatible format. Choose a new empty configuration file URL; the original file is preserved."
+  },
+  "noticeSyncing": {
+    "message": "Syncing to cloud"
+  },
+  "noticeOffline": {
+    "message": "No network connection"
+  },
+  "noticeFailed": {
+    "message": "Cloud sync failed"
+  },
+  "noticeError": {
+    "message": "Cloud sync error"
+  },
+  "noticeLocalRetry": {
+    "message": "Local settings are kept. Retrying automatically."
+  },
+  "noticeUsingLocal": {
+    "message": "Using local settings. Check sync in settings."
+  },
+  "syncNetworkFailure": {
+    "message": "Cannot reach the cloud service. Local changes are kept; retrying automatically."
+  },
+  "shortcutCanvas": {
+    "message": "Click empty space to open settings"
+  },
+  "shortcutIcon": {
+    "message": "Click a website icon to edit its appearance"
+  },
+  "syncDiagnostics": {
+    "message": "Download sync diagnostics"
+  }
+}

@@ -1,0 +1,16 @@
+.top-blur{position:fixed;inset:0 0 auto;height:144px;z-index:5;pointer-events:none;--blur-strength:0;--shade-strength:0}
+.top-blur span{position:absolute;inset:0;backdrop-filter:blur(calc(var(--blur)*var(--blur-strength)));-webkit-backdrop-filter:blur(calc(var(--blur)*var(--blur-strength)));mask-image:var(--mask);-webkit-mask-image:var(--mask)}
+.top-blur::after{content:"";position:absolute;inset:0;opacity:var(--shade-strength);background:linear-gradient(to bottom,rgba(0,0,0,var(--shade-top,.20)) 0%,rgba(0,0,0,var(--shade-mid,.11)) 28%,rgba(0,0,0,var(--shade-low,.035)) 65%,transparent 100%)}
+.top-blur span{backdrop-filter:blur(var(--blur));-webkit-backdrop-filter:blur(var(--blur));opacity:var(--blur-strength);will-change:opacity}
+.top-blur[data-active="false"] span{visibility:hidden}
+.icon-slot{position:relative;width:72px;height:72px;flex:0 0 72px;border-radius:var(--radius-icon);corner-shape:var(--corner-g2);overflow:hidden;isolation:isolate}
+.icon-slot>.icon{position:absolute;inset:0}
+.icon-slot.is-changing::after{content:"";position:absolute;inset:0;background:#000;pointer-events:none;animation:icon-shade var(--time-340) var(--ease-artwork) both}
+.icon-incoming{animation:icon-arrive var(--time-340) var(--ease-artwork) both}
+.icon-outgoing{animation:icon-leave var(--time-240) ease-out both;pointer-events:none}
+@keyframes icon-arrive{0%{opacity:0;filter:blur(var(--artwork-blur)) brightness(var(--artwork-dim))}45%{opacity:.65;filter:blur(var(--artwork-blur-mid)) brightness(var(--artwork-dim-mid))}100%{opacity:1;filter:blur(0) brightness(1)}}
+@keyframes icon-leave{from{opacity:1;filter:blur(0) brightness(1)}to{opacity:0;filter:blur(var(--artwork-blur)) brightness(var(--artwork-dim))}}
+@keyframes icon-shade{0%,100%{opacity:0}40%{opacity:var(--artwork-shade)}}
+#preview-art.icon-slot{width:112px;height:112px;flex-basis:112px;border-radius:var(--radius-preview);corner-shape:var(--corner-g2);overflow:hidden;box-shadow:0 2px 7px #00000010,0 9px 24px #0000000c}
+#preview-art.icon-slot>.icon{box-shadow:none}
+@media(prefers-reduced-motion:reduce){.icon-incoming,.icon-outgoing,.icon-slot.is-changing::after{animation:none}}

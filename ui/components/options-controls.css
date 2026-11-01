@@ -1,0 +1,20 @@
+label{display:block;font-size:14px;font-weight:500;margin:18px 0 7px}
+input:not([type=checkbox]){width:100%;min-width:0;padding:11px 13px;border:1px solid var(--line);border-radius:var(--radius-12);corner-shape:var(--corner-g2);background:var(--input);color:var(--text);font:inherit;font-size:14px}
+input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+button{font:inherit;font-size:14px;font-weight:500;color:var(--text);padding:9px 17px;min-height:42px;border:1px solid var(--line);border-radius:var(--radius-13);corner-shape:var(--corner-g2);background:var(--button);cursor:pointer;transition:opacity .15s,transform .12s}
+button:active{transform:scale(.98)}
+button:disabled{opacity:.5;cursor:default}
+.primary{background:var(--accent);color:var(--on-accent);border-color:transparent}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:13px;font-weight:400;color:var(--muted)}
+input[type=checkbox]{margin:5px 0 0;accent-color:var(--accent);flex:none;width:15px;height:15px}
+a:hover{text-decoration:underline}
+header,h1,h2,button,label{user-select:none}
+@media(max-width:500px){.actions button{flex:1}}
+@media(prefers-reduced-motion:reduce){button{transition:none}}
+input:focus-visible,button:focus-visible,input:focus,button:focus{outline:none}
+button{transition:transform var(--time-120) ease,opacity var(--time-120) ease,background-color var(--time-120) ease}
+button:active{transform:scale(.96);opacity:.82}
+input:not([type=checkbox]),textarea{user-select:text;-webkit-user-select:text}
+
+@media(prefers-reduced-motion:reduce){button{transition:none}}

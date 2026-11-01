@@ -1,0 +1,4 @@
+.icon,.source-thumbnail{position:relative}
+.icon::after,.source-thumbnail::after{content:"";position:absolute;inset:0;border-radius:inherit;corner-shape:inherit;pointer-events:none;border:1px solid transparent;z-index:2}
+.icon[data-edge=light]::after,.source-thumbnail[data-edge=light]::after{border-color:var(--icon-edge-light)}
+.icon[data-edge=dark]::after,.source-thumbnail[data-edge=dark]::after{border-color:var(--icon-edge-dark)}

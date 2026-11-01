@@ -1,0 +1,1 @@
+export async function parallel(items,task){let next=0,error;await Promise.all(Array.from({length:Math.min(4,items.length)},async()=>{while(next<items.length&&!error){const item=items[next++];try{await task(item);}catch(e){error=e;}}}));if(error)throw error;}
