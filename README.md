@@ -6,6 +6,8 @@
 
 ![Yiu’s tab 新标签页：真实图标、向下滚动时的顶部渐变模糊](docs/screenshots/newtab-light.png)
 
+![Yiu’s tab 深色模式：向下滚动时的顶部渐变模糊](docs/screenshots/newtab-dark.png)
+
 ## 功能
 
 - 自适应书签网格、自动深浅主题、共享 UI 组件与动效。
@@ -13,8 +15,6 @@
 - Option / Alt 点击网站图标调整外观；Option / Alt 点击空白区域打开扩展设置。首次安装的空白页面会显示对应设备的按键与鼠标图标指引。
 - 完整配置导入、导出与可选 WebDAV 自动同步，包含书签、图标与外观设置。
 - 中文、英语、日语、韩语界面，扩展元数据另含繁体中文。
-
-![Yiu’s tab 深色模式：向下滚动时的顶部渐变模糊](docs/screenshots/newtab-dark.png)
 
 ## 安装
 

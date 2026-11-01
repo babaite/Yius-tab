@@ -6,6 +6,8 @@ A minimal Chrome new-tab extension with a responsive bookmark grid, high-resolut
 
 ![Yiu’s tab new-tab page with real artwork and the top gradient blur while scrolling](docs/screenshots/newtab-light.png)
 
+![Yiu’s tab dark mode with the top gradient blur while scrolling](docs/screenshots/newtab-dark.png)
+
 ## Features
 
 - Responsive bookmark grid, automatic light/dark themes, shared UI components, and motion effects.
@@ -13,8 +15,6 @@ A minimal Chrome new-tab extension with a responsive bookmark grid, high-resolut
 - Option-click or Alt-click a site icon to adjust its appearance. Option-click or Alt-click empty space to open extension settings. The first-run empty state shows the appropriate key and mouse guidance for the current platform.
 - Import and export complete configuration, with optional WebDAV automatic sync for bookmarks, artwork, and appearance settings.
 - Chinese, English, Japanese, and Korean interfaces; extension metadata also includes Traditional Chinese.
-
-![Yiu’s tab dark mode with the top gradient blur while scrolling](docs/screenshots/newtab-dark.png)
 
 ## Installation
 
