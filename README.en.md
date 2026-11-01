@@ -4,6 +4,10 @@
 
 A minimal Chrome new-tab extension with a responsive bookmark grid, high-resolution icons, drag sorting, appearance controls, and optional WebDAV sync.
 
+![Yiu’s tab new-tab page with real artwork and the top gradient blur while scrolling](docs/screenshots/newtab-light.png)
+
+Actual extension interface capture at 2880×1536. The screenshot uses an isolated fixture of public websites and contains no user bookmarks or personal home-page content. Website artwork comes from each site's real favicon; sites with a matching official app use App Store artwork whose app name and developer were verified individually. See the [icon matching record](docs/screenshots/README.md). The capture is taken while scrolled, showing the layered top gradient blur and gradient dimming.
+
 ## Features
 
 - Responsive bookmark grid, automatic light/dark themes, shared UI components, and motion effects.
@@ -11,6 +15,13 @@ A minimal Chrome new-tab extension with a responsive bookmark grid, high-resolut
 - Option-click or Alt-click a site icon to adjust its appearance. Option-click or Alt-click empty space to open extension settings. The first-run empty state shows the appropriate key and mouse guidance for the current platform.
 - Import and export complete configuration, with optional WebDAV automatic sync for bookmarks, artwork, and appearance settings.
 - Chinese, English, Japanese, and Korean interfaces; extension metadata also includes Traditional Chinese.
+
+<details>
+<summary>View the dark-mode screenshot</summary>
+
+![Yiu’s tab dark mode with the top gradient blur while scrolling](docs/screenshots/newtab-dark.png)
+
+</details>
 
 ## Installation
 
