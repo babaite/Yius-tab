@@ -448,5 +448,41 @@
   },
   "syncDiagnostics": {
     "message": "Download sync diagnostics"
+  },
+  "syncNowAction": {
+    "message": "Sync now"
+  },
+  "syncTestConnection": {
+    "message": "Test connection"
+  },
+  "syncTesting": {
+    "message": "Testing connection…"
+  },
+  "syncReachable": {
+    "message": "Connection available"
+  },
+  "syncUnreachable": {
+    "message": "Connection unavailable"
+  },
+  "syncLatency": {
+    "message": "Round-trip latency: {ms} ms"
+  },
+  "syncConflictCount": {
+    "message": "Pending conflicts: {count}"
+  },
+  "syncDeleteGuard": {
+    "message": "This round would delete {count} items, above the {limit}-item safety limit."
+  },
+  "syncConfirmDelete": {
+    "message": "Confirm deletes and continue"
+  },
+  "syncRemoteMissing": {
+    "message": "The cloud change log is unexpectedly missing. Local deletion was blocked."
+  },
+  "syncIncompleteListing": {
+    "message": "The cloud PROPFIND response was empty or incomplete. Sync was stopped."
+  },
+  "syncRemoteReset": {
+    "message": "The cloud change log was reset or shortened. Local data was protected."
   }
 }
