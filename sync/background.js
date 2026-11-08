@@ -13,10 +13,11 @@ async function bookmarkChanged(id,info={}){
 for(const event of ['onCreated','onRemoved','onChanged','onMoved','onChildrenReordered'])chrome.bookmarks[event].addListener((id,info)=>bookmarkChanged(id,info).catch(()=>{}));
 chrome.runtime.onStartup.addListener(()=>setup().catch(()=>{}));chrome.runtime.onInstalled.addListener(()=>setup().catch(()=>{}));
 const handlers={'yiu-icons-changed':async()=>{await queue();return {ok:true};}};
-for(const type of ['yiu-sync-check','yiu-sync-now','yiu-sync-resolve','yiu-sync-recover'])handlers[type]=async payload=>{
- await execute({force:type!=='yiu-sync-check',recovery:type==='yiu-sync-recover',resolution:type==='yiu-sync-resolve'?payload.resolution:undefined,foreground:payload.foreground===true});
+for(const type of ['yiu-sync-check','yiu-sync-now','yiu-sync-resolve','yiu-sync-recover','yiu-sync-confirm-delete'])handlers[type]=async payload=>{
+ await execute({force:type!=='yiu-sync-check',recovery:type==='yiu-sync-recover',resolution:type==='yiu-sync-resolve'?payload.resolution:undefined,deleteApproval:type==='yiu-sync-confirm-delete'?payload.approvalId:undefined,foreground:payload.foreground===true});
  return (await chrome.storage.local.get('syncStatus')).syncStatus;
 };
+handlers['yiu-sync-test']=()=>engine.connectionTest();
 chrome.runtime.onMessage.addListener(createMessageRouter({api:chrome,handlers}));
 
 addEventListener('online',()=>execute().catch(()=>{}));

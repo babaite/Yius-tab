@@ -7,7 +7,7 @@ manifest = json.loads((root / 'manifest.json').read_text())
 out = root / 'dist' / ('Yius-tab-' + manifest['version'] + '.zip')
 out.parent.mkdir(exist_ok=True)
 files = [root / name for name in ['manifest.json', 'background.js', 'theme-observer.html', 'theme-observer.js', 'README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md', 'PRIVACY.md', 'ARCHITECTURE.md', 'UI_SPEC.md']]
-for folder in ['core', 'ui', 'sync', 'newtab', 'options', 'icon', '_locales']:
+for folder in ['core', 'ui', 'sync', 'newtab', 'options', 'icon', '_locales', 'docs']:
     files.extend(p for p in (root / folder).rglob('*') if p.is_file() and not p.name.startswith('.'))
 with ZipFile(out, 'w', ZIP_DEFLATED) as archive:
     for path in sorted(files):

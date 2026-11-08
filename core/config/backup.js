@@ -61,13 +61,3 @@ export async function applyBackup(b){
   const order=[...new Set([...b.order.map(id=>mapping.get(id)),...b.sites.map(s=>mapping.get(s.id)),...(local.order||[])])];
   await chrome.storage.local.set({managedFolderId:folder.id,prefs,order,settings:{...local.settings,...b.settings},restoreRevision:Date.now()});
 }
-
-export async function cloudTransfer(config,method,body){
-  const url=new URL(config.url);if(url.protocol!=='https:'||url.username||url.password)throw new Error('invalidCloudURL');
-  const headers={};if(method==='PUT')headers['Content-Type']='application/json';
-  if(config.username||config.password){const bytes=new TextEncoder().encode(config.username+':'+config.password);let raw='';for(const byte of bytes)raw+=String.fromCharCode(byte);headers.Authorization='Basic '+btoa(raw);}
-  const response=await fetch(url.href,{method,body,headers,credentials:'omit',redirect:'error',referrerPolicy:'no-referrer',signal:AbortSignal.timeout(30000)});
-  if(!response.ok)throw new Error('HTTP '+response.status);if(method==='PUT')return;
-  if(Number(response.headers.get('content-length'))>MAX_BACKUP)throw new Error('backupTooLarge');
-  const reader=response.body.getReader(),decoder=new TextDecoder();let text='',bytes=0;while(true){const {done,value}=await reader.read();if(done)break;bytes+=value.byteLength;if(bytes>MAX_BACKUP){await reader.cancel();throw new Error('backupTooLarge');}text+=decoder.decode(value,{stream:true});}return text+decoder.decode();
-}

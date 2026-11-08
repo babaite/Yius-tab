@@ -30,7 +30,7 @@ export function createAssetService({api,request,bytes,cache,now,blobs,recentUplo
    else if(!response.ok)throw failure('syncHTTP',response.status);
    recentUploads.set(hash,now());
    meta.assets=[...new Set([...(meta.assets||[]),hash])];meta.garbage={...meta.garbage,[hash]:meta.garbage?.[hash]||now()};
-  });if(pending.length)await api.storage.local.set({syncState:meta});
+  });
  }
  return {itemRef,acquireAssets};
 }

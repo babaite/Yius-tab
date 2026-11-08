@@ -448,5 +448,41 @@
   },
   "syncDiagnostics": {
     "message": "下载同步诊断"
+  },
+  "syncNowAction": {
+    "message": "立即同步"
+  },
+  "syncTestConnection": {
+    "message": "测试连接"
+  },
+  "syncTesting": {
+    "message": "正在测试连接…"
+  },
+  "syncReachable": {
+    "message": "连接可用"
+  },
+  "syncUnreachable": {
+    "message": "无法连接"
+  },
+  "syncLatency": {
+    "message": "往返延迟：{ms} ms"
+  },
+  "syncConflictCount": {
+    "message": "冲突待处理：{count}"
+  },
+  "syncDeleteGuard": {
+    "message": "本轮待删除 {count} 项，超过安全上限 {limit} 项。"
+  },
+  "syncConfirmDelete": {
+    "message": "确认删除并继续"
+  },
+  "syncRemoteMissing": {
+    "message": "云端同步文件突然不可见，已阻止本地删除。"
+  },
+  "syncIncompleteListing": {
+    "message": "云端 PROPFIND 返回空列表或不完整响应，已停止同步。"
+  },
+  "syncRemoteReset": {
+    "message": "云端变更记录载体被重置或缩短，已阻止覆盖本地数据。"
   }
 }

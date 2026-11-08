@@ -1,0 +1,11 @@
+#sync-dock{position:fixed;left:20px;bottom:18px;z-index:8;display:flex;align-items:center;gap:10px;max-width:min(520px,calc(100vw - 40px));padding:9px 11px 9px 14px;border:1px solid color-mix(in srgb,var(--text) 9%,transparent);border-radius:var(--radius-14);corner-shape:var(--corner-g2);background:color-mix(in srgb,var(--panel) 82%,transparent);box-shadow:0 5px 24px #00000012;color:var(--text);backdrop-filter:blur(14px);font-size:12px;line-height:1.35}
+#sync-dock[hidden]{display:none}
+#sync-dock-state{white-space:nowrap;font-weight:600}
+#sync-dock[data-state=synced] #sync-dock-state{color:var(--status-success,#198357)}
+#sync-dock[data-state=conflict] #sync-dock-state,#sync-dock[data-state=error] #sync-dock-state,#sync-dock[data-state=deleteGuard] #sync-dock-state{color:var(--status-error,#cd3e4c)}
+#sync-dock-conflicts{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted)}
+.sync-dock-actions{display:flex;gap:6px;margin-left:auto}
+#sync-dock button{height:30px;padding:0 10px;border:1px solid color-mix(in srgb,var(--text) 10%,transparent);border-radius:var(--radius-9);corner-shape:var(--corner-g2);background:var(--panel);color:inherit;font:inherit;cursor:pointer}
+#sync-dock button:disabled{opacity:.45;cursor:default}
+#sync-dock button[hidden]{display:none}
+@media(max-width:600px){#sync-dock{right:12px;left:12px;bottom:12px;max-width:none}#sync-dock-conflicts{display:none}}

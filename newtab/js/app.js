@@ -10,6 +10,7 @@ import {createSourceMenu} from './source-menu.js';
 import {presentIcon,artworkFingerprint} from './icon-motion.js';
 import {createIconAcquisition} from '../../core/icons/acquisition.js';
 import {createSyncNotices} from './notices.js';
+import {installSyncStatus} from './sync-status.js';
 import {thirdPartyURL} from './settings.js';
 import {t,uiError,setText,applyTranslations} from './i18n.js';
 import {updateThemeIcons} from './theme.js';
@@ -253,7 +254,7 @@ $('form').onsubmit=async e=>{e.preventDefault();const b=active;const next={...pr
 installScrollEffects(document.querySelector('.top-blur'));
 observeGridReflow(grid,()=>Boolean(pointerDrag?.active));
 observeGridScroll(grid);
-applyTranslations();updateThemeIcons();const syncNoticeUI=createSyncNotices({api:chrome});
+applyTranslations();updateThemeIcons();const syncNoticeUI=createSyncNotices({api:chrome});installSyncStatus({api:chrome});
 addEventListener('yiu-languagechange',()=>{
   applyTranslations();render();colorPicker.refreshLocale();
   if(active){fillSources();syncControls();updatePreview();$('reset').textContent=t($('reset').classList.contains('reset-done')?'resetDone':$('reset').disabled?'resetting':'resetButton');}

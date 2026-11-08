@@ -448,5 +448,41 @@
   },
   "syncDiagnostics": {
     "message": "동기화 진단 다운로드"
+  },
+  "syncNowAction": {
+    "message": "지금 동기화"
+  },
+  "syncTestConnection": {
+    "message": "연결 테스트"
+  },
+  "syncTesting": {
+    "message": "연결 테스트 중…"
+  },
+  "syncReachable": {
+    "message": "연결 가능"
+  },
+  "syncUnreachable": {
+    "message": "연결 불가"
+  },
+  "syncLatency": {
+    "message": "왕복 지연: {ms} ms"
+  },
+  "syncConflictCount": {
+    "message": "처리 대기 충돌: {count}"
+  },
+  "syncDeleteGuard": {
+    "message": "이번에 {count}개를 삭제해 안전 한도 {limit}개를 초과합니다."
+  },
+  "syncConfirmDelete": {
+    "message": "삭제 확인 후 계속"
+  },
+  "syncRemoteMissing": {
+    "message": "클라우드 변경 기록이 갑자기 없어 로컬 삭제를 차단했습니다."
+  },
+  "syncIncompleteListing": {
+    "message": "클라우드 PROPFIND 응답이 비어 있거나 불완전해 동기화를 중지했습니다."
+  },
+  "syncRemoteReset": {
+    "message": "클라우드 변경 기록이 재설정되거나 짧아져 로컬 데이터를 보호했습니다."
   }
 }

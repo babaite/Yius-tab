@@ -1,5 +1,5 @@
-export const PROTOCOL='yius-tab',PROTOCOL_VERSION=1;
-export const OPERATIONS=Object.freeze(['yiu-theme','yiu-icons-changed','yiu-sync-check','yiu-sync-now','yiu-sync-resolve','yiu-sync-recover']);
+export const PROTOCOL='yius-tab',PROTOCOL_VERSION=2;
+export const OPERATIONS=Object.freeze(['yiu-theme','yiu-icons-changed','yiu-sync-check','yiu-sync-now','yiu-sync-resolve','yiu-sync-recover','yiu-sync-confirm-delete','yiu-sync-test']);
 export function requestMessage(type,payload={}){
  if(!OPERATIONS.includes(type))throw new Error('protocolUnknownOperation');
  return {protocol:PROTOCOL,version:PROTOCOL_VERSION,id:crypto.randomUUID(),type,payload};
@@ -11,6 +11,7 @@ export function parseMessage(message){
  if(message.type==='yiu-theme'&&typeof payload.dark!=='boolean')throw new Error('protocolInvalid');
  if(payload.foreground!==undefined&&typeof payload.foreground!=='boolean')throw new Error('protocolInvalid');
  if(message.type==='yiu-sync-resolve'&&!['local','remote'].includes(payload.resolution))throw new Error('protocolInvalid');
+ if(message.type==='yiu-sync-confirm-delete'&&payload.approvalId!==undefined&&(typeof payload.approvalId!=='string'||!payload.approvalId))throw new Error('protocolInvalid');
  return {type:message.type,payload,id:message.id};
 }
 export async function sendRequest(api,type,payload={}){
