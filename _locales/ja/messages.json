@@ -448,5 +448,41 @@
   },
   "syncDiagnostics": {
     "message": "同期診断をダウンロード"
+  },
+  "syncNowAction": {
+    "message": "今すぐ同期"
+  },
+  "syncTestConnection": {
+    "message": "接続をテスト"
+  },
+  "syncTesting": {
+    "message": "接続をテスト中…"
+  },
+  "syncReachable": {
+    "message": "接続できます"
+  },
+  "syncUnreachable": {
+    "message": "接続できません"
+  },
+  "syncLatency": {
+    "message": "往復遅延：{ms} ms"
+  },
+  "syncConflictCount": {
+    "message": "未処理の競合：{count}"
+  },
+  "syncDeleteGuard": {
+    "message": "今回は {count} 件を削除するため、安全上限 {limit} 件を超えます。"
+  },
+  "syncConfirmDelete": {
+    "message": "削除を確認して続行"
+  },
+  "syncRemoteMissing": {
+    "message": "クラウドの変更履歴が突然見つからないため、ローカル削除を停止しました。"
+  },
+  "syncIncompleteListing": {
+    "message": "クラウドの PROPFIND 応答が空または不完全なため同期を停止しました。"
+  },
+  "syncRemoteReset": {
+    "message": "クラウドの変更履歴がリセットまたは短縮されたため、ローカルデータを保護しました。"
   }
 }
