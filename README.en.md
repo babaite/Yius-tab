@@ -14,6 +14,7 @@ A minimal Chrome new-tab extension with a responsive bookmark grid, high-resolut
 - Prefer website artwork with local caching; optionally use third-party sources, Apple App Store matches, or local images.
 - Option-click or Alt-click a site icon to adjust its appearance. Option-click or Alt-click empty space to open extension settings. The first-run empty state shows the appropriate key and mouse guidance for the current platform.
 - Import and export complete configuration, with optional WebDAV automatic sync for bookmarks, artwork, and appearance settings.
+- The new-tab page shows sync status, last success time, conflict count, and a manual sync action; settings include a connection test and round-trip latency.
 - Chinese, English, Japanese, and Korean interfaces; extension metadata also includes Traditional Chinese.
 
 ## Installation
@@ -31,7 +32,7 @@ The folder can be moved or renamed, but keep the ID bookmark used for identifica
 
 WebDAV is disabled by default, and the server and credential fields start empty. Enter the server URL, account, and app password provided by your service, then enable it in extension settings. Credentials are stored locally only when requested and are excluded from backups and synchronized configuration.
 
-Third-party artwork APIs are requested only when the corresponding source is selected. See [PRIVACY.md](PRIVACY.md) for website access, image requests, permissions, and data handling. Sync depends on the provider's network, quotas, and WebDAV implementation, so completion times are not guaranteed.
+Sync uses stable entity IDs, an append-only change log, and conditional ETag writes. Changes from the same baseline merge when fields do not overlap; overlapping edits are preserved under `_sync-conflicts/` for manual resolution. Deletes use tombstones retained for at least 90 days. Third-party artwork APIs are requested only when the corresponding source is selected. See [PRIVACY.md](PRIVACY.md) for website access, image requests, permissions, and data handling.
 
 ## Source layout
 
